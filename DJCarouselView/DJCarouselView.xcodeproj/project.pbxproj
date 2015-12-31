@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB97D0DF1C35487700B3EF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97D0DE1C35487700B3EF8A /* AppDelegate.swift */; };
+		FB97D0E11C35487700B3EF8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97D0E01C35487700B3EF8A /* ViewController.swift */; };
+		FB97D0E41C35487700B3EF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB97D0E21C35487700B3EF8A /* Main.storyboard */; };
+		FB97D0E61C35487700B3EF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB97D0E51C35487700B3EF8A /* Assets.xcassets */; };
+		FB97D0E91C35487700B3EF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB97D0E71C35487700B3EF8A /* LaunchScreen.storyboard */; };
+		FB97D0F41C35487700B3EF8A /* DJCarouselViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97D0F31C35487700B3EF8A /* DJCarouselViewTests.swift */; };
+		FB97D0FF1C35487700B3EF8A /* DJCarouselViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97D0FE1C35487700B3EF8A /* DJCarouselViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB97D0F01C35487700B3EF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB97D0D31C35487700B3EF8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB97D0DA1C35487700B3EF8A;
+			remoteInfo = DJCarouselView;
+		};
+		FB97D0FB1C35487700B3EF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB97D0D31C35487700B3EF8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB97D0DA1C35487700B3EF8A;
+			remoteInfo = DJCarouselView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB97D0DB1C35487700B3EF8A /* DJCarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJCarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB97D0DE1C35487700B3EF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB97D0E01C35487700B3EF8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB97D0E31C35487700B3EF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB97D0E51C35487700B3EF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB97D0E81C35487700B3EF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB97D0EA1C35487700B3EF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB97D0EF1C35487700B3EF8A /* DJCarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJCarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB97D0F31C35487700B3EF8A /* DJCarouselViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJCarouselViewTests.swift; sourceTree = "<group>"; };
+		FB97D0F51C35487700B3EF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB97D0FA1C35487700B3EF8A /* DJCarouselViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJCarouselViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB97D0FE1C35487700B3EF8A /* DJCarouselViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJCarouselViewUITests.swift; sourceTree = "<group>"; };
+		FB97D1001C35487700B3EF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB97D0D81C35487700B3EF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97D0EC1C35487700B3EF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97D0F71C35487700B3EF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB97D0D21C35487700B3EF8A = {
+			isa = PBXGroup;
+			children = (
+				FB97D0DD1C35487700B3EF8A /* DJCarouselView */,
+				FB97D0F21C35487700B3EF8A /* DJCarouselViewTests */,
+				FB97D0FD1C35487700B3EF8A /* DJCarouselViewUITests */,
+				FB97D0DC1C35487700B3EF8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB97D0DC1C35487700B3EF8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB97D0DB1C35487700B3EF8A /* DJCarouselView.app */,
+				FB97D0EF1C35487700B3EF8A /* DJCarouselViewTests.xctest */,
+				FB97D0FA1C35487700B3EF8A /* DJCarouselViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB97D0DD1C35487700B3EF8A /* DJCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				FB97D0DE1C35487700B3EF8A /* AppDelegate.swift */,
+				FB97D0E01C35487700B3EF8A /* ViewController.swift */,
+				FB97D0E21C35487700B3EF8A /* Main.storyboard */,
+				FB97D0E51C35487700B3EF8A /* Assets.xcassets */,
+				FB97D0E71C35487700B3EF8A /* LaunchScreen.storyboard */,
+				FB97D0EA1C35487700B3EF8A /* Info.plist */,
+			);
+			path = DJCarouselView;
+			sourceTree = "<group>";
+		};
+		FB97D0F21C35487700B3EF8A /* DJCarouselViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB97D0F31C35487700B3EF8A /* DJCarouselViewTests.swift */,
+				FB97D0F51C35487700B3EF8A /* Info.plist */,
+			);
+			path = DJCarouselViewTests;
+			sourceTree = "<group>";
+		};
+		FB97D0FD1C35487700B3EF8A /* DJCarouselViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB97D0FE1C35487700B3EF8A /* DJCarouselViewUITests.swift */,
+				FB97D1001C35487700B3EF8A /* Info.plist */,
+			);
+			path = DJCarouselViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB97D0DA1C35487700B3EF8A /* DJCarouselView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB97D1031C35487700B3EF8A /* Build configuration list for PBXNativeTarget "DJCarouselView" */;
+			buildPhases = (
+				FB97D0D71C35487700B3EF8A /* Sources */,
+				FB97D0D81C35487700B3EF8A /* Frameworks */,
+				FB97D0D91C35487700B3EF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJCarouselView;
+			productName = DJCarouselView;
+			productReference = FB97D0DB1C35487700B3EF8A /* DJCarouselView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB97D0EE1C35487700B3EF8A /* DJCarouselViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB97D1061C35487700B3EF8A /* Build configuration list for PBXNativeTarget "DJCarouselViewTests" */;
+			buildPhases = (
+				FB97D0EB1C35487700B3EF8A /* Sources */,
+				FB97D0EC1C35487700B3EF8A /* Frameworks */,
+				FB97D0ED1C35487700B3EF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB97D0F11C35487700B3EF8A /* PBXTargetDependency */,
+			);
+			name = DJCarouselViewTests;
+			productName = DJCarouselViewTests;
+			productReference = FB97D0EF1C35487700B3EF8A /* DJCarouselViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB97D0F91C35487700B3EF8A /* DJCarouselViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB97D1091C35487700B3EF8A /* Build configuration list for PBXNativeTarget "DJCarouselViewUITests" */;
+			buildPhases = (
+				FB97D0F61C35487700B3EF8A /* Sources */,
+				FB97D0F71C35487700B3EF8A /* Frameworks */,
+				FB97D0F81C35487700B3EF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB97D0FC1C35487700B3EF8A /* PBXTargetDependency */,
+			);
+			name = DJCarouselViewUITests;
+			productName = DJCarouselViewUITests;
+			productReference = FB97D0FA1C35487700B3EF8A /* DJCarouselViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB97D0D31C35487700B3EF8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SuperDJ;
+				TargetAttributes = {
+					FB97D0DA1C35487700B3EF8A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FB97D0EE1C35487700B3EF8A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FB97D0DA1C35487700B3EF8A;
+					};
+					FB97D0F91C35487700B3EF8A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FB97D0DA1C35487700B3EF8A;
+					};
+				};
+			};
+			buildConfigurationList = FB97D0D61C35487700B3EF8A /* Build configuration list for PBXProject "DJCarouselView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB97D0D21C35487700B3EF8A;
+			productRefGroup = FB97D0DC1C35487700B3EF8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB97D0DA1C35487700B3EF8A /* DJCarouselView */,
+				FB97D0EE1C35487700B3EF8A /* DJCarouselViewTests */,
+				FB97D0F91C35487700B3EF8A /* DJCarouselViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB97D0D91C35487700B3EF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB97D0E91C35487700B3EF8A /* LaunchScreen.storyboard in Resources */,
+				FB97D0E61C35487700B3EF8A /* Assets.xcassets in Resources */,
+				FB97D0E41C35487700B3EF8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97D0ED1C35487700B3EF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97D0F81C35487700B3EF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB97D0D71C35487700B3EF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB97D0E11C35487700B3EF8A /* ViewController.swift in Sources */,
+				FB97D0DF1C35487700B3EF8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97D0EB1C35487700B3EF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB97D0F41C35487700B3EF8A /* DJCarouselViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97D0F61C35487700B3EF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB97D0FF1C35487700B3EF8A /* DJCarouselViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB97D0F11C35487700B3EF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB97D0DA1C35487700B3EF8A /* DJCarouselView */;
+			targetProxy = FB97D0F01C35487700B3EF8A /* PBXContainerItemProxy */;
+		};
+		FB97D0FC1C35487700B3EF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB97D0DA1C35487700B3EF8A /* DJCarouselView */;
+			targetProxy = FB97D0FB1C35487700B3EF8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB97D0E21C35487700B3EF8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB97D0E31C35487700B3EF8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB97D0E71C35487700B3EF8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB97D0E81C35487700B3EF8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB97D1011C35487700B3EF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB97D1021C35487700B3EF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB97D1041C35487700B3EF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJCarouselView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SuperDJ.DJCarouselView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB97D1051C35487700B3EF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJCarouselView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SuperDJ.DJCarouselView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB97D1071C35487700B3EF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJCarouselViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SuperDJ.DJCarouselViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJCarouselView.app/DJCarouselView";
+			};
+			name = Debug;
+		};
+		FB97D1081C35487700B3EF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJCarouselViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SuperDJ.DJCarouselViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJCarouselView.app/DJCarouselView";
+			};
+			name = Release;
+		};
+		FB97D10A1C35487700B3EF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJCarouselViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SuperDJ.DJCarouselViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJCarouselView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB97D10B1C35487700B3EF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DJCarouselViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SuperDJ.DJCarouselViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJCarouselView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB97D0D61C35487700B3EF8A /* Build configuration list for PBXProject "DJCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97D1011C35487700B3EF8A /* Debug */,
+				FB97D1021C35487700B3EF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB97D1031C35487700B3EF8A /* Build configuration list for PBXNativeTarget "DJCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97D1041C35487700B3EF8A /* Debug */,
+				FB97D1051C35487700B3EF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB97D1061C35487700B3EF8A /* Build configuration list for PBXNativeTarget "DJCarouselViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97D1071C35487700B3EF8A /* Debug */,
+				FB97D1081C35487700B3EF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB97D1091C35487700B3EF8A /* Build configuration list for PBXNativeTarget "DJCarouselViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97D10A1C35487700B3EF8A /* Debug */,
+				FB97D10B1C35487700B3EF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB97D0D31C35487700B3EF8A /* Project object */;
+}
