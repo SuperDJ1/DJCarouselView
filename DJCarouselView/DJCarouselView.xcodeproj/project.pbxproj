@@ -14,6 +14,7 @@
 		FB97D0E91C35487700B3EF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB97D0E71C35487700B3EF8A /* LaunchScreen.storyboard */; };
 		FB97D0F41C35487700B3EF8A /* DJCarouselViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97D0F31C35487700B3EF8A /* DJCarouselViewTests.swift */; };
 		FB97D0FF1C35487700B3EF8A /* DJCarouselViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97D0FE1C35487700B3EF8A /* DJCarouselViewUITests.swift */; };
+		FB97D10D1C3677B700B3EF8A /* DJCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97D10C1C3677B700B3EF8A /* DJCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FB97D0FA1C35487700B3EF8A /* DJCarouselViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJCarouselViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB97D0FE1C35487700B3EF8A /* DJCarouselViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJCarouselViewUITests.swift; sourceTree = "<group>"; };
 		FB97D1001C35487700B3EF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB97D10C1C3677B700B3EF8A /* DJCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FB97D0DE1C35487700B3EF8A /* AppDelegate.swift */,
 				FB97D0E01C35487700B3EF8A /* ViewController.swift */,
+				FB97D10C1C3677B700B3EF8A /* DJCarouselView.swift */,
 				FB97D0E21C35487700B3EF8A /* Main.storyboard */,
 				FB97D0E51C35487700B3EF8A /* Assets.xcassets */,
 				FB97D0E71C35487700B3EF8A /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB97D0E11C35487700B3EF8A /* ViewController.swift in Sources */,
+				FB97D10D1C3677B700B3EF8A /* DJCarouselView.swift in Sources */,
 				FB97D0DF1C35487700B3EF8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
